@@ -7,7 +7,7 @@ export default function Instagram() {
 
 	return (
 		<div className="flex items-center px-10 py-6 overflow-hidden bg-white rounded-lg shadow">
-			<InstagramLogo className="w-10 h-10 shrink-0 text-[#1DAF2}" />
+			<InstagramLogo className="w-10 h-10 shrink-0 text-[#1D1AF2]" />
 			<div className="pl-5">
 				<p className="text-sm font-medium text-gray-500 truncate">
 					Followers
