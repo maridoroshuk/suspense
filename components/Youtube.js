@@ -2,7 +2,7 @@ import { ArrowSmDownIcon, ArrowSmUpIcon } from "@heroicons/react/solid"
 import useSWR from "swr"
 import YouTubeIcon from "./icons/youtube"
 
-export default function YouTubeStats() {
+export default function YouTube() {
 	let { data } = useSWR("/api/youtube")
 
 	return (

@@ -1,5 +1,6 @@
 import { Suspense } from "react"
 import { motion } from "framer-motion"
+import Twitter from "../components/Twitter"
 
 let parent = {
 	show: {
