@@ -1,6 +1,9 @@
 import { Suspense } from "react"
 import { motion } from "framer-motion"
 import Twitter from "../components/Twitter"
+import YouTube from "../components/Youtube"
+import Instagram from "../components/Instagram"
+import Spinner from "../components/Spinner"
 
 let parent = {
 	show: {
@@ -32,7 +35,7 @@ export default function Home() {
 						<Twitter />
 					</motion.div>
 					<motion.div variants={stat}>
-						<Youtube />
+						<YouTube />
 					</motion.div>
 					<motion.div variants={stat}>
 						<Instagram />
